@@ -8,7 +8,7 @@ docker build -t test .
 
 ```bash
 docker build -t test .
-docker run -p 3000:3000 --env-file .env nombre_imagen
+docker run -p 3000:3000 --env-file .env test
 ```
 
 ## Create
